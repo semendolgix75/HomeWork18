@@ -24,9 +24,7 @@ public class EmployeeController {
         employeeService.addEmployee(employee);
 
         return employee.toString();
-
     }
-
     @GetMapping(path = "/employee/remove")
     public String removeEmployee(@RequestParam("firstName") String firstName,
                                  @RequestParam("lastName") String lastName
@@ -38,7 +36,6 @@ public class EmployeeController {
         return "Удален";
 
     }
-
 }
 
 
