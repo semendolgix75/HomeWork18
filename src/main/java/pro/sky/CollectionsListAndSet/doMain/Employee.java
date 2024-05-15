@@ -14,13 +14,11 @@ public class Employee {
         this.lastName = lastName;
     }
 
+
     @Override
     public String toString() {
-        return
-                "firstName: " + firstName + ',' +
-                " lastName: " + lastName;
+        return   "firstName: "+firstName+", lastName: "+lastName;
     }
-
     public String getFirstName() {
         return firstName;
     }
